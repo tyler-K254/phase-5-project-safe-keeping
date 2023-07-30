@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+}
+
+.home{
+  background-image: url(blob:https://web.whatsapp.com/c5e72aca-c551-4b8d-a44a-53f8a1053fdb);
+}
+
+.home-image{
+  display: block;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+}
+
+.navigation-bar{
+  background-color: #016db4;
+  height: 90px;
+  width: 100%;
+  padding: 10px;
+ 
+ 
+  top: 0;
+  left: 0;
+}
+
+.navLink {
+  color: #ffffff;
+  margin-top: 23px;
+  padding-right: 69px;
+  font-size: 190%;
+  float: left;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: none;
+  /* text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5); */
+}
+
+
+
+.sign-in-container{
+  position: relative;
+  bottom: 45px;
+}
+
+.admin-sign-up-div{
+  background-color: #ffffff;
+  width: 190px;
+  height: 60px;
+  text-align: center;
+  display: flex;
+  align-items: center; /* Vertically center the content */
+  justify-content: center; /* Horizontally center the content (optional) */
+  position: absolute;
+  right: 280px;
+  top: 55px;
+  
+}
+
+
+
+.customer-sign-up-div{
+  background-color: #000742;
+  width: 198px;
+  height: 56px;
+  text-align: center;
+  display: flex;
+  align-items: center; /* Vertically center the content */
+  justify-content: center; /* Horizontally center the content (optional) */
+  position: absolute;
+  right: 79px;
+  top: 55px;
+  border: 2px solid #ffffff; /* Replace #000 with the desired color for the stroke */
+  background-color: transparent;
+  
+}
+
+.admin-sign-in{
+  color: #0080DD;
+  text-decoration: none;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.customer-sign-in{
+  color: white;
+  text-decoration: none;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+
+.home-background{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url('../public/images/Home-page-pic-no-slogan.png'); /* Replace with the actual image path */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home-text{
+  position: absolute;
+  right: 5%;
+  top: 25%;
+  
+  
+}
+
+
+.title-div{
+  background-color: #ffffff;
+  width: 390px;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #0080DD;
+  font-size: 140%;
+
+}
+
+
+.why-us-div{
+  color: #ffffff;
+  float: left;
+  font-size: 250%;
+  text-align: left;
+  
+}
+
+.why-us-title{
+  text-decoration: underline;
+}
+
+.why-us-list{
+  text-decoration: none;
+  position: relative;
+  right: 40px;
+}
+
+
+.payment-details-form{
+  position: absolute;
+}
+
+.payment-page-image{
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  
+}
+
+
+
+.payment-div{
+  position: relative;
+}
